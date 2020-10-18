@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list {
+  padding: 20px;
+  list-style: none;
+}
+
+.list:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+.box-container {
+  padding-top: 50px;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  background-color: #ffd700;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  float: left;
+}
+
+.box:nth-child(3n) {
+  margin-right: 0%;
+}
+
+.box:nth-child(n + 7) {
+  margin-bottom: 0px;
+}
+
+.box:nth-child(4n + 1) {
+  background-color: #ff8c00;
+}
