@@ -75,14 +75,15 @@ footer {
 
   .box {
     width: 90%;
-    margin:20px auto;
+    margin: 20px auto;
+  }
 
+  .box:nth-child(1) {
+    margin-top: 0;
   }
 
   .box:nth-child(3) {
-    margin:20px auto;
+    margin-bottom: 0;
+    margin-right: auto;
   }
-
-  
-
 }
